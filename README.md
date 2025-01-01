@@ -1,67 +1,126 @@
-# Next.js Multi-tenant Starter Template
+# 🚀 AI Study App
 
-A minimalistic multi-tenant Next.js starter template with minimal setup and a modular design. Bring your own backend and database.
+Welcome to **AI Study App**, the coolest way to learn smarter, not harder! 🎓 Say goodbye to boring textbooks and hello to a fun, interactive, and AI-powered study buddy that's here to help you ace your schoolwork and quizzes like a pro!
 
-[Demo](https://stack-template.vercel.app/)
+---
 
-## Landing Page
+## 🌟 Features
 
-<div align="center">
-<img src="./assets/landing-page.png" alt="Teams" width="600"/>
-</div>
+🧙‍♂️ **Personalized Learning**  
+Tailor-made quizzes and lessons that match _your_ learning style.
 
-## Dashboard
+😁 **Fun and Interactive**  
+Who said studying can't be fun? Games, challenges, and more!
 
-<div align="center">
-<img src="./assets/dashboard-overview.png" alt="Teams" width="600"/>
-</div>
+📊 **Track Your Progress**  
+Level up as you master subjects and achieve your study goals.
 
-## Multi-tenancy (Teams)
+⚡ **Powered by AI**  
+Your super-smart assistant ready to answer questions and explain concepts instantly.
 
-<div align="center">
-<img src="./assets/team-switcher.png" alt="Teams" width="400"/>
-</div>
+❓ **Instant Doubt Resolution**  
+Stuck? Our AI's got your back with quick and clear explanations.
 
-## Account Settings
+🚀 **Gamified Challenges**  
+Study = Game = Win. Collect badges, beat high scores, and learn on the way.
 
-<div align="center">
-<img src="./assets/account-settings.png" alt="Teams" width="500"/>
-</div>
+📱 **Cross-Device Sync**  
+Start on one device, continue on another—seamless learning anytime, anywhere.
 
-## Getting Started
+---
 
-1. Clone the repository
+## 🛠️ Tech Stack
 
-    ```bash
-    git clone git@github.com:stack-auth/stack-template.git
-    ```
+- **Backend**: TypeScript + Express.js + Prisma + PostgreSQL
+- **Frontend**: React.js (Vercel Stack Template FTW!)
+- **Database**: PostgreSQL with Docker for deployment magic 🐳
+- **Hosting**: Vercel for frontend and backend deployment 🚀
 
-2. Install dependencies
+---
 
-    ```bash
-    npm install
-    ```
+## 📦 Installation
 
-3. Register an account on [Stack Auth](https://stack-auth.com), copy the keys from the dashboard, and paste them into the `.env.local` file. Then, enable "client team creation" on the team settings tab.
+Follow these steps to set up the project locally:
 
-    If you want to learn more about Stack Auth or self-host it, check out the [Docs](https://docs.stack-auth.com) and [GitHub](https://github.com/stack-auth/stack).
+1. Clone this repo like a boss:
 
-4. Start the development server and go to [http://localhost:3000](http://localhost:3000)
+   ```bash
+   git clone https://github.com/your-username/ai-study-app.git
+   cd ai-study-app
+   ```
 
-    ```bash
-    npm run dev 
-    ```
+2. Install dependencies:
 
-## Features & Tech Stack
+   ```bash
+   npm install
+   ```
 
-- Next.js 14 app router
-- TypeScript
-- Tailwind & Shadcn UI
-- Stack Auth
-- Multi-tenancy (teams/orgs)
-- Dark mode
+3. Set up the database using Docker:
 
-## Inspired by
+   ```bash
+   docker-compose up -d
+   ```
 
-- [Shadcn UI](https://github.com/shadcn-ui/ui)
-- [Shadcn Taxonomy](https://github.com/shadcn-ui/taxonomy)
+4. Apply Prisma migrations:
+
+   ```bash
+   npx prisma migrate dev
+   ```
+
+5. Run the app in development mode:
+
+   ```bash
+   npm run dev
+   ```
+
+6. Open your browser and go to `http://localhost:3000` 🎉
+
+---
+
+## 🚦 Endpoints
+
+Check out the API docs in the `docs/` folder or use our **Postman Collection** to start testing!
+
+---
+
+## 🧑‍🤝‍🧑 Contributing
+
+We ❤️ contributions! If you have ideas, fixes, or just want to help out:
+
+1. Fork this repo.
+2. Create a branch:
+   ```bash
+   git checkout -b my-new-feature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Added my awesome feature"
+   ```
+4. Push the branch:
+   ```bash
+   git push origin my-new-feature
+   ```
+5. Create a pull request, and we'll take it from there!
+
+---
+
+## 🐛 Bug Reports
+
+Did you find a bug? 😱 No worries! Open an issue in the repo, and we'll zap it faster than you can say "debug"!
+
+---
+
+## 🌈 Show Your Support
+
+⭐ Star this project if you find it helpful! Spread the word to make learning fun for everyone.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License—because sharing is caring!
+
+---
+
+Happy Learning,  
+**The AI Study App Team** 💡
