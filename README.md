@@ -45,7 +45,7 @@ Follow these steps to set up the project locally:
 1. Clone this repo like a boss:
 
    ```bash
-   git clone https://github.com/your-username/ai-study-app.git
+   git clone https://github.com/kalubekalu/ai-study-app.git
    cd ai-study-app
    ```
 
